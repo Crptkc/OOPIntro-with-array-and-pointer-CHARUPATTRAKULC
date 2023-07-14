@@ -10,6 +10,7 @@ private:
   int age;
   float score;
 
+
 public:
   void setAll(string, int, float = 0);
   void printAll();

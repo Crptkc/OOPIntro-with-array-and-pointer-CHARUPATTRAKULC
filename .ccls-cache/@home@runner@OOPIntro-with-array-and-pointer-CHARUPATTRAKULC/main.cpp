@@ -13,6 +13,7 @@ int main(int argc, char* argv[]) {
     temp->setAll(argv[i * 3 + 1], atoi(argv[i * 3 + 2]), atof(argv[i * 3 + 3]));
   }
 
+  
   temp = pt_std;
   float max_gpa = 0;
   for (int i = 0; i < n; i++, temp++) {
